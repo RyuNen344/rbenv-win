@@ -313,6 +313,14 @@ Sub CommandShell(arg)
     End If
 End Sub
 
+Sub CommandVersionName(arg)
+    If Not objfs.FolderExists( strDirVers ) Then objfs.CreateFolder(strDirVers)
+
+    Dim curVer
+    curVer=GetCurrentVersion
+    Wscript.echo curVer(0)
+End Sub
+
 Sub CommandVersion(arg)
     If Not objfs.FolderExists( strDirVers ) Then objfs.CreateFolder(strDirVers)
 
@@ -389,16 +397,17 @@ Sub main(arg)
         ShowHelp
     Else
         Select Case arg(0)
-           Case "exec"        CommandExecute(arg)
-           Case "rehash"      CommandRehash(arg)
-           Case "global"      CommandGlobal(arg)
-           Case "local"       CommandLocal(arg)
-           Case "shell"       CommandShell(arg)
-           Case "version"     CommandVersion(arg)
-           Case "versions"    CommandVersions(arg)
-           Case "commands"    CommandCommands(arg)
-           Case "help"        CommandHelp(arg)
-           Case Else          PlugIn(arg)
+           Case "exec"            CommandExecute(arg)
+           Case "rehash"          CommandRehash(arg)
+           Case "global"          CommandGlobal(arg)
+           Case "local"           CommandLocal(arg)
+           Case "shell"           CommandShell(arg)
+           Case "version-name"    CommandVersionName(arg)
+           Case "version"         CommandVersion(arg)
+           Case "versions"        CommandVersions(arg)
+           Case "commands"        CommandCommands(arg)
+           Case "help"            CommandHelp(arg)
+           Case Else              PlugIn(arg)
         End Select
     End If
 End Sub
