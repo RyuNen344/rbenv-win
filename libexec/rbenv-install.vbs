@@ -207,14 +207,13 @@ Sub extract(cur)
 
     If Not objfs.FileExists(cur(2)) Then download(cur)
     
-     Wscript.echo "install " & cur(0) & " ..."
+    Wscript.echo "install " & cur(0) & " ..."
 
     objws.CurrentDirectory = strDirCache
     objws.Run tool7z & " """ & cur(2) & """" , 0 , true
     objfs.MoveFolder strDirCache&"\"&objfs.GetBaseName(cur(2)) , cur(1)
 
     installDevKit(cur)
-    objws.Run "rbenv rehash " & cur(0), 0, true
     Wscript.echo "comlete! " & cur(0)
 
 End Sub
