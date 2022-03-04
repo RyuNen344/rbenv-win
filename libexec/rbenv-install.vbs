@@ -166,7 +166,17 @@ Sub installDevKit(cur)
     Dim dev
     Dim idx
     If cur(4) = "bundled" Then
-        objws.Run """" & cur(1) & "\bin\ridk.cmd"" install", 1 , true
+        Dim versionHome
+        versionHome = strRbenvHome & "\versions\" & cur(0)
+        
+        Dim ofile
+        Set ofile = objfs.CreateTextFile(versionHome & "\ridk_use" & "\rubies.yml" , True )
+        ofile.WriteLine("--- ")
+        ofile.WriteLine("- " & versionHome)
+        ofile.Close()
+
+        Wscript.echo versionHome & "\bin\ridk.cmd"" install"
+        objws.Run """" & versionHome & "\bin\ridk.cmd"" install", 1 , true
     Else
         For Each list In listDevKit
             If list(0) = cur(4) Then
