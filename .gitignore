@@ -16,4 +16,6 @@
 !/tools/
 /tools/DevKit/
 
+!install-rbenv-win.bat
+
 !/test/
