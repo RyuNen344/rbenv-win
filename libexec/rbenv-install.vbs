@@ -16,7 +16,7 @@ strRbenvHome = objfs.getParentFolderName(objfs.getParentFolderName(WScript.Scrip
 strDirCache  = strRbenvHome & "\install_cache"
 strDirVers   = strRbenvHome & "\versions"
 strDirLibs   = strRbenvHome & "\libexec"
-strVerFile   = "\.ruby_version"
+strVerFile   = "\.ruby-version"
 
 
 Dim tool7z
