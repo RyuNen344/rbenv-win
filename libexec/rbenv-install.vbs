@@ -46,11 +46,23 @@ listDevKit = Array( _
 
 Dim listEnv
 
-listEnv = Array( _
+listEnv = Array(_
+    Array("3.2.1"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.1-1/","rubyinstaller-3.2.1-1-x64.7z" ,"bundled"),_
+    Array("3.2.1-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.1-1/","rubyinstaller-3.2.1-1-x86.7z" ,"bundled"),_
+    Array("3.2.0"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.0-1/","rubyinstaller-3.2.0-1-x64.7z" ,"bundled"),_
+    Array("3.2.0-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.0-1/","rubyinstaller-3.2.0-1-x86.7z" ,"bundled"),_
+    Array("3.1.3"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/","rubyinstaller-3.1.3-1-x64.7z" ,"bundled"),_
+    Array("3.1.3-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/","rubyinstaller-3.1.3-1-x86.7z" ,"bundled"),_
+    Array("3.1.2"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.2-1/","rubyinstaller-3.1.2-1-x64.7z" ,"bundled"),_
+    Array("3.1.2-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.2-1/","rubyinstaller-3.1.2-1-x86.7z" ,"bundled"),_
     Array("3.1.1"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.1-1/","rubyinstaller-3.1.1-1-x64.7z" ,"bundled"),_
     Array("3.1.1-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.1-1/","rubyinstaller-3.1.1-1-x86.7z" ,"bundled"),_
     Array("3.1.0"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.0-1/","rubyinstaller-3.1.0-1-x64.7z" ,"bundled"),_
     Array("3.1.0-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.0-1/","rubyinstaller-3.1.0-1-x86.7z" ,"bundled"),_
+    Array("3.0.5"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.5-1/","rubyinstaller-3.0.5-1-x64.7z" ,"bundled"),_
+    Array("3.0.5-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.5-1/","rubyinstaller-3.0.5-1-x86.7z" ,"bundled"),_
+    Array("3.0.4"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.4-1/","rubyinstaller-3.0.4-1-x64.7z" ,"bundled"),_
+    Array("3.0.4-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.4-1/","rubyinstaller-3.0.4-1-x86.7z" ,"bundled"),_
     Array("3.0.3"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.3-1/","rubyinstaller-3.0.3-1-x64.7z" ,"bundled"),_
     Array("3.0.3-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.3-1/","rubyinstaller-3.0.3-1-x86.7z" ,"bundled"),_
     Array("3.0.2"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.2-1/","rubyinstaller-3.0.2-1-x64.7z" ,"bundled"),_
@@ -59,6 +71,10 @@ listEnv = Array( _
     Array("3.0.1-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.1-1/","rubyinstaller-3.0.1-1-x86.7z" ,"bundled"),_
     Array("3.0.0"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.0-1/","rubyinstaller-3.0.0-1-x64.7z" ,"bundled"),_
     Array("3.0.0-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.0-1/","rubyinstaller-3.0.0-1-x86.7z" ,"bundled"),_
+    Array("2.7.7"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.7-1/","rubyinstaller-2.7.7-1-x64.7z" ,"bundled"),_
+    Array("2.7.7-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.7-1/","rubyinstaller-2.7.7-1-x86.7z" ,"bundled"),_
+    Array("2.7.6"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.6-1/","rubyinstaller-2.7.6-1-x64.7z" ,"bundled"),_
+    Array("2.7.6-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.6-1/","rubyinstaller-2.7.6-1-x86.7z" ,"bundled"),_
     Array("2.7.5"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.5-1/","rubyinstaller-2.7.5-1-x64.7z" ,"bundled"),_
     Array("2.7.5-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.5-1/","rubyinstaller-2.7.5-1-x86.7z" ,"bundled"),_
     Array("2.7.4"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.4-1/","rubyinstaller-2.7.4-1-x64.7z" ,"bundled"),_
@@ -71,6 +87,8 @@ listEnv = Array( _
     Array("2.7.1-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.1-1/","rubyinstaller-2.7.1-1-x86.7z" ,"bundled"),_
     Array("2.7.0"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.0-1/","rubyinstaller-2.7.0-1-x64.7z" ,"bundled"),_
     Array("2.7.0-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.0-1/","rubyinstaller-2.7.0-1-x86.7z" ,"bundled"),_
+    Array("2.6.10"           ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.10-1/","rubyinstaller-2.6.10-1-x64.7z" ,"bundled"),_
+    Array("2.6.10-x86"       ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.10-1/","rubyinstaller-2.6.10-1-x86.7z" ,"bundled"),_
     Array("2.6.9"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.9-1/","rubyinstaller-2.6.9-1-x64.7z" ,"bundled"),_
     Array("2.6.9-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.9-1/","rubyinstaller-2.6.9-1-x86.7z" ,"bundled"),_
     Array("2.6.8"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.8-1/","rubyinstaller-2.6.8-1-x64.7z" ,"bundled"),_
