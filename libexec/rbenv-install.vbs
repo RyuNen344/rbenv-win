@@ -47,12 +47,54 @@ listDevKit = Array( _
 Dim listEnv
 
 listEnv = Array(_
+    Array("3.4.3"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.4.3-1/","rubyinstaller-3.4.3-1-x64.7z" ,"bundled"),_
+    Array("3.4.3-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.4.3-1/","rubyinstaller-3.4.3-1-x86.7z" ,"bundled"),_
+    Array("3.4.2"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.4.2-1/","rubyinstaller-3.4.2-1-x64.7z" ,"bundled"),_
+    Array("3.4.2-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.4.2-1/","rubyinstaller-3.4.2-1-x86.7z" ,"bundled"),_
+    Array("3.4.1"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.4.1-2/","rubyinstaller-3.4.1-2-x64.7z" ,"bundled"),_
+    Array("3.4.1-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.4.1-2/","rubyinstaller-3.4.1-2-x86.7z" ,"bundled"),_
+    Array("3.3.8"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.8-1/","rubyinstaller-3.3.8-1-x64.7z" ,"bundled"),_
+    Array("3.3.8-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.8-1/","rubyinstaller-3.3.8-1-x86.7z" ,"bundled"),_
+    Array("3.3.7"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.7-1/","rubyinstaller-3.3.7-1-x64.7z" ,"bundled"),_
+    Array("3.3.7-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.7-1/","rubyinstaller-3.3.7-1-x86.7z" ,"bundled"),_
+    Array("3.3.6"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.6-2/","rubyinstaller-3.3.6-2-x64.7z" ,"bundled"),_
+    Array("3.3.6-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.6-2/","rubyinstaller-3.3.6-2-x86.7z" ,"bundled"),_
+    Array("3.3.5"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.5-1/","rubyinstaller-3.3.5-1-x64.7z" ,"bundled"),_
+    Array("3.3.5-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.5-1/","rubyinstaller-3.3.5-1-x86.7z" ,"bundled"),_
+    Array("3.3.4"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.4-1/","rubyinstaller-3.3.4-1-x64.7z" ,"bundled"),_
+    Array("3.3.4-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.4-1/","rubyinstaller-3.3.4-1-x86.7z" ,"bundled"),_
+    Array("3.3.3"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.3-1/","rubyinstaller-3.3.3-1-x64.7z" ,"bundled"),_
+    Array("3.3.3-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.3-1/","rubyinstaller-3.3.3-1-x86.7z" ,"bundled"),_
+    Array("3.3.2"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.2-1/","rubyinstaller-3.3.2-1-x64.7z" ,"bundled"),_
+    Array("3.3.2-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.2-1/","rubyinstaller-3.3.2-1-x86.7z" ,"bundled"),_
+    Array("3.3.1"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.1-1/","rubyinstaller-3.3.1-1-x64.7z" ,"bundled"),_
+    Array("3.3.1-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.1-1/","rubyinstaller-3.3.1-1-x86.7z" ,"bundled"),_
+    Array("3.3.0"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.0-1/","rubyinstaller-3.3.0-1-x64.7z" ,"bundled"),_
+    Array("3.3.0-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.0-1/","rubyinstaller-3.3.0-1-x86.7z" ,"bundled"),_
+    Array("3.2.8"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.8-1/","rubyinstaller-3.2.8-1-x64.7z" ,"bundled"),_
+    Array("3.2.8-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.8-1/","rubyinstaller-3.2.8-1-x86.7z" ,"bundled"),_
+    Array("3.2.7"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.7-1/","rubyinstaller-3.2.7-1-x64.7z" ,"bundled"),_
+    Array("3.2.7-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.7-1/","rubyinstaller-3.2.7-1-x86.7z" ,"bundled"),_
+    Array("3.2.6"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.6-1/","rubyinstaller-3.2.6-1-x64.7z" ,"bundled"),_
+    Array("3.2.6-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.6-1/","rubyinstaller-3.2.6-1-x86.7z" ,"bundled"),_
+    Array("3.2.5"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.5-1/","rubyinstaller-3.2.5-1-x64.7z" ,"bundled"),_
+    Array("3.2.5-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.5-1/","rubyinstaller-3.2.5-1-x86.7z" ,"bundled"),_
+    Array("3.2.4"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.4-1/","rubyinstaller-3.2.4-1-x64.7z" ,"bundled"),_
+    Array("3.2.4-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.4-1/","rubyinstaller-3.2.4-1-x86.7z" ,"bundled"),_
+    Array("3.2.3"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.3-1/","rubyinstaller-3.2.3-1-x64.7z" ,"bundled"),_
+    Array("3.2.3-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.3-1/","rubyinstaller-3.2.3-1-x86.7z" ,"bundled"),_
     Array("3.2.2"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.2-1/","rubyinstaller-3.2.2-1-x64.7z" ,"bundled"),_
     Array("3.2.2-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.2-1/","rubyinstaller-3.2.2-1-x86.7z" ,"bundled"),_
     Array("3.2.1"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.1-1/","rubyinstaller-3.2.1-1-x64.7z" ,"bundled"),_
     Array("3.2.1-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.1-1/","rubyinstaller-3.2.1-1-x86.7z" ,"bundled"),_
     Array("3.2.0"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.0-1/","rubyinstaller-3.2.0-1-x64.7z" ,"bundled"),_
     Array("3.2.0-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.0-1/","rubyinstaller-3.2.0-1-x86.7z" ,"bundled"),_
+    Array("3.1.7"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.7-1/","rubyinstaller-3.1.7-1-x64.7z" ,"bundled"),_
+    Array("3.1.7-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.7-1/","rubyinstaller-3.1.7-1-x86.7z" ,"bundled"),_
+    Array("3.1.6"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.6-1/","rubyinstaller-3.1.6-1-x64.7z" ,"bundled"),_
+    Array("3.1.6-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.6-1/","rubyinstaller-3.1.6-1-x86.7z" ,"bundled"),_
+    Array("3.1.5"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.5-1/","rubyinstaller-3.1.5-1-x64.7z" ,"bundled"),_
+    Array("3.1.5-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.5-1/","rubyinstaller-3.1.5-1-x86.7z" ,"bundled"),_
     Array("3.1.4"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.4-1/","rubyinstaller-3.1.4-1-x64.7z" ,"bundled"),_
     Array("3.1.4-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.4-1/","rubyinstaller-3.1.4-1-x86.7z" ,"bundled"),_
     Array("3.1.3"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.3-1/","rubyinstaller-3.1.3-1-x64.7z" ,"bundled"),_
@@ -63,6 +105,8 @@ listEnv = Array(_
     Array("3.1.1-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.1-1/","rubyinstaller-3.1.1-1-x86.7z" ,"bundled"),_
     Array("3.1.0"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.0-1/","rubyinstaller-3.1.0-1-x64.7z" ,"bundled"),_
     Array("3.1.0-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.0-1/","rubyinstaller-3.1.0-1-x86.7z" ,"bundled"),_
+    Array("3.0.7"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.7-1/","rubyinstaller-3.0.7-1-x64.7z" ,"bundled"),_
+    Array("3.0.7-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.7-1/","rubyinstaller-3.0.7-1-x86.7z" ,"bundled"),_
     Array("3.0.6"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.6-1/","rubyinstaller-3.0.6-1-x64.7z" ,"bundled"),_
     Array("3.0.6-x86"        ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.6-1/","rubyinstaller-3.0.6-1-x86.7z" ,"bundled"),_
     Array("3.0.5"            ,"https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.5-1/","rubyinstaller-3.0.5-1-x64.7z" ,"bundled"),_
